@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #06283D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.App {
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #06283D;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.card {
+    position: relative;
+}
+
+.city {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.currentTemp {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.currentWeatherDesc {
+    font-size: 1.2em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailGroup {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.nameNvalue {
+    display: grid;
+    grid-template-areas: 
+        "value"
+        "name";
+}
+
+.detailName {
+    font-size: 0.7em;
+    color: gray;
+    font-weight: 300;
+}
+
+.detailValue {
+    font-size: 1.2em;
+}
+
+.forecast-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.forecastTemp {
+    font-size: 1.2em;
+    margin: 0;
+}
