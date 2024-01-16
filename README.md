@@ -1,6 +1,8 @@
 # Weather App
 A web-based weather application built with React.
 
+Live demo: https://mabelzhou.github.io/weather-app/
+
 ## Overview
 This app allows users to search a city for real-time weather conditions including temperature, wind speed, humidity and real feel temperature. This data is getched from the OpenWeatherMap API.
 
