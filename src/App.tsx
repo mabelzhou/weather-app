@@ -22,7 +22,7 @@ function App() {
 
   const fetchGeocoding = async (city: string) => {
     const response = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
     );
     const geoData = await response.json();
     console.log(geoData);
